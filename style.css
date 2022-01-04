@@ -15,11 +15,15 @@
     --font-03: 'Sriracha', cursive;
 }
 
+
+
 html, body{
     
     background-color: darkgray;
     font-family: var(--font-01);
 }
+
+
 
 header{
     background-color: black;
@@ -36,6 +40,8 @@ header > p{
     padding-bottom: 50px;
 }
 
+
+
 a{
     color: white;
     text-decoration: none;
@@ -44,6 +50,8 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
+
 
 section{
     padding-top: 10vh;
@@ -54,20 +62,44 @@ section{
     font-family: var(--font-03);
     font-weight: 5vw;
     font-size: 3.5vw;
+    
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
 }
+section > p{
+    padding-bottom: 2em;
+}
+
+
+
+#bgimage-01{
+    background-image: url(Material/imagens/background001.jpg);
+}
+#bgimage-02{
+    background-image: url(Material/imagens/background002.jpg);
+}
+
+
+
 .normal{
     background-color: white;
     color: black;
 }
 .imagem{
-    background-color: lightblue;
+    background-color: lightcoral;
     color: black;
+    box-shadow: inset 6px 6px 13px 0px black;
 }
 .imagem > p{
     background-color: rgba(0, 0, 0, 0.562);
+    color: white;
     display: inline-block;
     padding: 5px;
+    text-shadow: 2px 2px 0px black;
 }
+
+
 
 footer{
     background-color: black;
