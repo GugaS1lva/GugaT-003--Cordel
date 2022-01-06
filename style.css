@@ -5,10 +5,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 /* font-family: 'Sriracha', cursive; */
+
 *{
     margin: 0px;
     padding: 0px;
 }
+
 :root{
     --font-01: Verdana, Geneva, Tahoma, sans-serif;
     --font-02: 'Passion One', cursive;
